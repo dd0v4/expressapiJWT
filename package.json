@@ -1,0 +1,18 @@
+{
+  "name": "jsb",
+  "version": "0.0.1",
+  "description": "MEN STACK",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -L server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dd0v4",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.3",
+    "nodemon": "^3.0.3"
+  }
+}
